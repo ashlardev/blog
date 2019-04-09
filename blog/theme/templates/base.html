@@ -88,15 +88,20 @@
 </ul> {% endcomment %}
 
 
+{% block pageheader %}
+
+{% endblock %}
 
 
 
 
-
-
+ <div class="container">
+ <div class="row">
 {% block main %}{% endblock %}
 
-
+</div>
+</div>
+<hr>
 {% comment %} <div class="col-md-3 right">
     {% nevercache %}
     {% include "includes/language_selector.html" %}

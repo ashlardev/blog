@@ -341,3 +341,14 @@ except ImportError:
     pass
 else:
     set_dynamic_settings(globals())
+
+FORMS_USE_HTML5 = True
+
+########
+# EMAIL#
+########
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_POT = '587'
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'look.within.give.without@gmail.com'
+EMAIL_HOST_PASSWORD = 'M@nt1ss@'
